@@ -1,0 +1,60 @@
+page-joborderdetails {
+
+}
+
+.back-icon{
+    
+    float: right;
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;
+
+}
+
+.detail-box-full {
+    background: #ececec;
+    border-radius: 6px;
+    padding: 10px 0 0 0 !important;
+    margin: 0 0 20px 0;
+}
+
+
+.font-light {
+    font-weight: 300 !important;
+}
+
+.light-gray {
+    color: #494949 !important;
+}
+
+.img-upload {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-color{
+    color: black;
+    background-color: #C02124;
+}
+
+.small-arrow{
+    width: 8px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px 0px 0px 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.description-text{
+    padding: 0px 0px 5px 30px;
+}

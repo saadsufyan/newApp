@@ -1,0 +1,71 @@
+page-quotation {
+
+}
+
+.quote-header {
+    background: #4b4b4b;
+    padding: 8px 0 1px 0;
+    margin-bottom: 30px;
+}
+
+.table-color{
+    color: white;
+}
+
+.quote {
+    position: absolute;
+    right: 0;
+    margin: -23px 0 0 0;
+    width: 158px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d8262a;
+    background: url(../assets/bg_quote.png) no-repeat;
+    background-size: 100%;
+}
+
+
+.color-red {
+    color: #d8262a !important;
+}
+
+.btn-gray {
+    background: url(../assets/btn_gray.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 30px !important;
+    color: #ffffff !important;
+    height: 51px !important;
+    width: 150px;
+    padding-bottom: 12px !important;
+}
+
+.bg-dark-gray {
+    background: #4b4b4b !important;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.title-heading {
+    font-weight: 600 !important;
+}
+
+.table-box {
+    padding: 10px 0 20px 0;
+}
+
+
+.quotation-price{
+    border-top: 1px groove;
+}
+
+.quotation-details{
+    border-bottom: 2px groove;
+}
+
+.no-border{
+    border-top: 0px !important;
+}

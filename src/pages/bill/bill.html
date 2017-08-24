@@ -1,0 +1,150 @@
+<!--
+  Generated template for the BillPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar color="custom-color">
+		<button  ion-button menuToggle class="menu-color">
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>QUOTATION</ion-title>
+		<ion-icon class= "back-icon" name="arrow-back" (click)="goBack()"></ion-icon>
+  </ion-navbar>
+
+</ion-header> -->
+
+<ion-header class="header-home">
+  <ion-navbar color="custom-color">
+
+	<button  ion-button menuToggle class="menu-color">
+    	<ion-icon name="menu"></ion-icon>
+  	</button>
+
+    <ion-title class="header-name">QUOTATION</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="goBack()"><ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back"  ></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+  <!-- header -->
+<div class="quote-header">
+	<table class="table table-quote ltr" style="color:white">
+	<tr>
+		<td class="no-border"> <b>User Name:</b> Ahmed</td>
+		<td class="no-border" style="text-align: right;"> 04-05-2017</td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Vendor/Technician:</b> Khalid</td>
+		<td class="no-border"> </td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Quote ID:</b> 002</td>
+		<td class="no-border"> </td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Job Title:</b> Electrical</td>
+		<td class="no-border"> </td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Job Order ID:</b> 65218</td>
+		<td class="no-border"> </td>
+	</tr>
+	</table>
+
+	<div class="quote ltr"> 
+		<h4 class="color-red">SAR 100</h4>
+	</div>
+</div>
+<!-- header --> 
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-detail ltr">
+		<thead>
+			<tr>
+				<td> Services</td>
+				<td> Description</td>
+				<td> Price</td>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr>
+				<td>Wire Installation</td>
+				<td>Need electrical installation services for my house.</td>
+				<td>SAR 50</td>
+			</tr>
+			<tr>
+				<td>Wire Installation</td>
+				<td>Need electrical installation services for my house.</td>
+				<td>SAR 50</td>
+			</tr>		
+		</tbody>
+	</table>
+</div>
+
+
+<!-- table -->
+
+<!-- Title -->
+<div class="col-xs-12 title-ltr bg-dark-gray">
+	<div class="col-xs-12">
+		<h4 class="color-white title-heading">Material & Installation</h4>
+	</div>
+</div>
+<!-- Title -->
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-detail ltr">
+		<thead>
+			<tr>
+				<td> Description</td>
+				<td> Quantity</td>
+				<td> Price</td>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr >
+				<td>Wire</td>
+				<td>02</td>
+				<td>SAR 50</td>
+			</tr>
+			<tr>
+				<td>Wire</td>
+				<td>05</td>
+				<td>SAR 100</td>
+			</tr>		
+		</tbody>
+	</table>
+</div>
+<!-- table -->
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-total price-box ltr">
+		<thead>
+			<tr>
+				<td> TOTAL</td>
+				<td> SAR 100</td>
+			</tr>	
+		</thead>
+		<tbody>		
+		</tbody>
+	</table>
+</div>
+<!-- table -->
+
+<div class="col-xs-12 ltr" style="text-align:center">
+	<button class="btn-yellow" (click)="goToReQuote()">Re-Quote</button>
+	<button class="btn-gray-two" (click)="goToJobCompletion()">Completed</button>
+	<br><br>
+</div>
+
+
+</ion-content>

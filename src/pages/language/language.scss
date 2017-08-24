@@ -1,0 +1,91 @@
+page-language {
+
+}
+.toolbar-title-ios {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    pointer-events: auto;
+}
+
+
+.header-language{
+    text-align: center;
+    background-color: black;
+}
+
+.title-language{
+    color: white !important;
+}
+.splash-box-inner {
+    width: 100%;
+    height: 15%;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.button-box {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+.logo-box {
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+
+.btn-yellow {
+    background: url(../assets/btn_yellow.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 30px !important;
+    line-height: .4 !important;
+    color: #d8262a !important;
+    height: 38px !important;
+    width: 150px;
+    font-weight: 600 !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    //font-weight: 400;
+    //line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    //background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.splash-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-box-inner {
+    width: 100%;
+    height: 15%;
+}
+
+.toolbar-title-md {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    //color: #424242;
+}

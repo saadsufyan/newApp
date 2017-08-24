@@ -1,0 +1,134 @@
+<ion-header class="header-home">
+
+
+   <ion-navbar  color="custom-color">
+           <button light ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title class="header-name">CLAIM JOBS</ion-title>
+
+
+   </ion-navbar>  
+
+</ion-header>
+
+
+
+
+<ion-content>
+  <div>
+    <ion-segment [(ngModel)]="claimJobs" class="segment-color">
+      <ion-segment-button value="current">
+      Current 
+      </ion-segment-button>
+      <ion-segment-button value="completed">
+      Completed
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+<div class="col-xs-12">
+<div [ngSwitch]="claimJobs">
+  <ion-list *ngSwitchCase="'current'">
+
+          <!-- Current -->
+      <div id="incoming" class="tab-pane fade in active home-tabs-box">
+      
+	      	<div class="row title-ltr">
+	      		<div class="col-xs-12">
+	      			<h4 class="light-gray title-heading">Mon, Apr-25-2017</h4>
+	      		</div>
+	        </div>	
+
+	        <div class="detail-box-outer">
+		        <div class="col-xs-12 detail-box">
+              <i class="fa fa-angle-right fa-3x icon-arrow-ltr" aria-hidden="true"></i>
+							<!-- <ion-icon class= "forward-icon" name="arrow-forward" ></ion-icon> -->
+							<img src="assets/fwd_arrow@2x-2.png" class="forward-icon">
+			        <table class="table table-home ltr">
+			        <tr>
+			        	<td class="no-border">Job Title:</td> 
+			        	<td class="no-border">Electrical</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">User Name:</td> 
+			        	<td class="no-border">Ahmed</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Claim ID:</td> 
+			        	<td class="no-border">65218</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Date & Time:</td> 
+			        	<td class="no-border">04-05-2017, 05:30pm</td>
+			        </tr>
+
+			        </table>
+			        	
+		        </div>    
+		    </div>
+	    	<div class="col-xs-12 no-p">
+	        	<button class="btn btn-yellow-curve" (click)="goToClaimDetails()">View Details</button>  
+	        </div>  
+
+
+      </div>
+      <!-- Current end -->
+
+
+  </ion-list>
+
+<!--Completed Segment-->
+
+  <ion-list *ngSwitchCase="'completed'">
+
+    <!-- Completed -->
+      <div id="quoted" class="tab-pane fade in active home-tabs-box">
+			
+			<div class="row title-ltr">
+	      		<div class="col-xs-12">
+	      			<h4 class="light-gray title-heading">Mon, Apr-25-2017</h4>
+	      		</div>
+	        </div>	
+
+	        <div class="detail-box-outer">
+
+		        <div class="col-xs-12 detail-box margin-top">
+              <i class="fa fa-angle-right fa-3x icon-arrow-ltr" aria-hidden="true"></i>
+							<!-- <ion-icon class= "forward-icon" name="arrow-forward" ></ion-icon> -->
+							<img src="assets/fwd_arrow@2x-2.png" class="forward-icon">
+			        <table class="table table-home ltr">
+			        <tr>
+			        	<td class="no-border">Job Title:</td> 
+			        	<td class="no-border">Electrical</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">User Name:</td> 
+			        	<td class="no-border">Ahmed</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Claim ID:</td> 
+			        	<td class="no-border">65218</td>
+			        </tr>			        
+			        <tr>
+			        	<td class="no-border">Date & Time:</td> 
+			        	<td class="no-border">04-05-2017, 05:30pm</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Claim Job Completion:</td> 
+			        	<td class="no-border">20-06-2017</td>
+			        </tr>
+			        </table>			     
+		        </div> 
+		    </div> 
+
+      </div>
+      <!-- Completed end -->
+  
+  </ion-list>
+
+
+</div>
+</div>
+
+</ion-content>

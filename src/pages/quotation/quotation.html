@@ -1,0 +1,180 @@
+
+
+<!-- <ion-header>
+
+  <ion-navbar color="custom-color">
+		<button  ion-button menuToggle class="menu-color">
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>QUOTATION</ion-title>
+		<ion-icon class= "back-icon" name="arrow-back" (click)="goBack()"></ion-icon>
+  </ion-navbar>
+
+</ion-header> -->
+
+<ion-header class="header-home">
+  <ion-navbar color="custom-color">
+
+	<button  ion-button menuToggle class="menu-color">
+    	<ion-icon name="menu"></ion-icon>
+  	</button>
+
+    <ion-title class="header-name">QUOTATION</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="goBack()"><ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back"  ></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  	
+<!-- header -->
+<div class="quote-header">
+	<table class="table table-quote ltr table-color">
+	<tr>
+		<td class="no-border"> <b>Vendor/Technician:</b> Khalid</td>
+		<td class="no-border" style="text-align: right;"> 04-05-2017</td>
+	</tr>
+	<tr>
+		<td class="no-border" > <b>User Name:</b> Ahmed</td>
+		<td class="no-border"> </td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Job Title:</b> Electrical</td>
+		<td class="no-border"> </td>
+	</tr>
+	<tr>
+		<td class="no-border"> <b>Job Order ID:</b> 65218</td>
+		<td class="no-border"> </td>
+	</tr>
+	</table>
+
+	<div class="quote ltr"> 
+		<h4 class="color-red">SAR 100</h4>
+	</div>
+</div>
+<!-- header --> 
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-detail ltr">
+		<thead>
+			<tr class="quotation-details">
+				<td><b> Services</b></td>
+				<td><b> Description</b></td>
+				<td><b> Price</b></td>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr>
+				<td>Wire Installation</td>
+				<td>Need electrical installation services for my house.</td>
+				<td>SAR 50</td>
+			</tr>
+			<tr>
+				<td>Wire Installation</td>
+				<td>Need electrical installation services for my house.</td>
+				<td>SAR 50</td>
+			</tr>		
+		</tbody>
+	</table>
+	<div class="col-xs-12" style="text-align:center">
+		<button class="btn-gray" data-toggle="modal" data-target="#add" style="text-align:center">ADD</button>
+	</div>
+</div>
+<!-- table -->
+
+<!-- Title -->
+<div class="col-xs-12 title-ltr bg-dark-gray">
+	<div class="col-xs-12">
+		<h4 class="color-white title-heading">Material & Installation</h4>
+	</div>
+</div>
+<!-- Title -->
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-detail ltr">
+		<thead>
+			<tr class="quotation-details">
+				<td><b> Description</b></td>
+				<td><b> Quantity</b></td>
+				<td><b> Price</b></td>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr>
+				<td>Wire</td>
+				<td>02</td>
+				<td>SAR 50</td>
+			</tr>
+			<tr>
+				<td>Wire</td>
+				<td>05</td>
+				<td>SAR 100</td>
+			</tr>		
+		</tbody>
+	</table>
+	<div class="col-xs-12" style="text-align:center">
+		<button class="btn-gray" data-toggle="modal" data-target="#add">ADD</button>
+	</div>
+</div>
+<!-- table -->
+
+<!-- table -->	 
+<div class="col-xs-12 table-box">
+	<table class="table table-box-total ltr">
+		<thead>
+			<tr class="quotation-price">
+				<td><b> TOTAL</b></td>
+				<td style="float:right"><b> SAR 100</b></td>
+			</tr>	
+		</thead>
+		<tbody>		
+		</tbody>
+	</table>
+	<div class="col-xs-12 button-box">
+		<button class="btn-yellow lg">Submit Quote</button>
+	</div>
+</div>
+<!-- table -->
+
+
+
+
+<!-- Modal -->
+ <div id="add" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="border-radius: 10px !important; overflow: hidden !important;">
+      <div class="modal-header" style="background: #cc4d50">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="color-white modal-title">ADD QUOTE DETAIL</h4>
+      </div>
+      <div class="modal-body" style="padding: 40px;">
+        <h4 class="label-text">SERVICE:</h4>
+        <br>
+        <input type="text" placeholder="Type Here.." class="modal-text-box">
+
+        <br><br>
+        <h4 class="label-text">DESCRIPTION:</h4>
+        <br>
+        <input type="text" placeholder="Type Here.." class="modal-text-box">
+
+        <br><br>
+        <h4 class="label-text">PRICE:</h4>
+        <br>
+        <input type="text" placeholder="Type Here.." class="modal-text-box">
+      </div>
+      <div class="modal-footer" style="text-align: center;">
+        <button type="button" class="btn btn-gray lg" data-dismiss="modal">ADD</button>
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+
+
+</ion-content>

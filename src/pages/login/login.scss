@@ -1,0 +1,97 @@
+page-login {
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.logo-box {
+    width: 100%;
+    text-align: center;
+    //height: 150px;
+}
+
+.sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //height: 250px;
+}
+
+
+
+.login-box {
+    text-align: center;
+    height: 200px;
+}
+
+.email {
+    background: #cd5052 url(../assets/icon_email.png) no-repeat !important;
+    background-size: 20px !important;
+    background-position: 12px 13px !important;
+}
+
+.input-box-ltr {
+    background: #cd5052;
+    border: none !important;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 4px;
+    width: 92%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+
+.password {
+    background: #cd5052 url(../assets/icon_password.png) no-repeat !important;
+    background-size: 15px !important;
+    background-position: 14px 9px !important;
+}
+
+.btn-yellow.lg {
+    background: url(../assets/btn_yellow_lg.png) no-repeat !important;
+    background-size: 100% !important;
+    height: 54px !important;
+    width: 210px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: .4 !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    //font-size: 14px;
+    //font-weight: 400;
+    //line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-yellow {
+    background: url(../assets/btn_yellow.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 30px !important;
+    line-height: .4 !important;
+    color: #d8262a !important;
+    height: 38px !important;
+    width: 150px;
+    font-weight: 600 !important;
+}

@@ -38,7 +38,9 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  custom-color: #C02124
+
 );
 
 
@@ -86,3 +88,18 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+$segment-button-md-border-width: 8px;
+$segment-button-ios-border-width: 8px;
+
+$segment-button-ios-background-color-activated: #F5C537;
+$segment-button-md-text-color-activated: #F5C537;
+
+$segment-button-md-border-color-activated: #F5C537;
+$segment-button-md-border-color-disabled: white;
+$tab-button-md-inactive-color: white;
+
+
+$menu-ios-background: #C02124;
+$menu-md-background: #C02124;
+

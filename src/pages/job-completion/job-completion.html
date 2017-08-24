@@ -1,0 +1,69 @@
+<!--
+  Generated template for the JobCompletionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+   <ion-navbar  color="custom-color">
+           <button light ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title class="header-name">JOB COMPLETION</ion-title>
+    <ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back" (click)="goBack()"></ion-icon>
+
+
+   </ion-navbar>  
+
+</ion-header> -->
+
+
+<ion-header class="header-home">
+  <ion-navbar color="custom-color">
+
+	<button  ion-button menuToggle class="menu-color">
+    	<ion-icon name="menu"></ion-icon>
+  	</button>
+
+    <ion-title class="header-name">JOB COMPLETION</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="goBack()"><ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back"  ></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  	
+<!-- container -->
+<div class="col-xs-12 center">
+
+	<div class="detail-box-outer">
+	    <div class="col-xs-12 detail-box-full">	    	
+	        <div class="col-xs-12 text-left ltr">
+	        	<h4 class="light-gray"><b>Attach picture as proof of completion:</b></h4>	        	
+	        	<img src="assets/img_01.png" class="img-upload img-lg">
+	        	<img src="assets/img_01.png" class="img-upload img-lg">
+	        	<img src="assets/img_01.png" class="img-upload img-lg">
+	        	<br>
+	        	<div class="row col-xs-12" style="padding: 14px 11px;">
+	        		<input type="checkbox" class="checkbox pull-left">
+	        		<h4 class="light-gray pull-left">No proof of completion possible.</h4>
+	        	</div>
+
+	        </div>	        
+	        	
+	    </div>    	    
+	</div>
+
+	   
+
+</div>
+<div class="col-xs-12" style="text-align:center">
+  <button class="btn btn-yellow lg">Completed</button> 
+</div>
+<!-- container --> 
+
+</ion-content>

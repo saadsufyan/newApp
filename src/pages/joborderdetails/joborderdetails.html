@@ -1,0 +1,113 @@
+<!--
+  Generated template for the JoborderdetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header class="header-home">
+  <ion-navbar color="custom-color" >
+  
+	<button  ion-button menuToggle class="menu-color">
+    	<ion-icon name="menu"></ion-icon>
+  	</button>
+
+	<ion-title class="header-name">
+		JOB ORDER DETAILS
+	</ion-title>
+	 
+	<ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back" (click)="goBack()"></ion-icon>
+  </ion-navbar> 
+
+</ion-header> -->
+
+
+<ion-header class="header-home">
+  <ion-navbar color="custom-color">
+
+	<button  ion-button menuToggle class="menu-color">
+    	<ion-icon name="menu"></ion-icon>
+  	</button>
+
+    <ion-title class="header-name">JOB ORDER DETAILS</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="goBack()"><ion-icon class= "back-icon" ios="ios-arrow-back" md="ios-arrow-back"  ></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<!-- container -->
+<div class="col-xs-12">
+
+	<div class="detail-box-outer">
+	    <div class="col-xs-12 detail-box-full">	    	
+	        <table class="table table-home table-job-detail ltr">
+		        <tr>
+		        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> User Name:</b></td> 
+		        	<td class="no-border">Ahmed</td>
+		        </tr>
+
+		        <tr>
+		        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> Job Title:</b></td> 
+		        	<td class="no-border">Electrical</td>
+		        </tr>
+
+		        <tr>
+		        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> Job Order ID:</b></td> 
+		        	<td class="no-border">65219</td>
+		        </tr>
+		        	        
+		        <tr class="price-box">	        	
+		        	<td><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> Job Summary:</b></td> 
+		        	<td></td>
+		        </tr>        	
+	       
+	        </table>
+	        <div class="col-xs-12 text-left ltr" style="padding: 0px 0px 5px 30px">
+	        	<h4 class="light-gray"><b>Description</b></h4>
+	        	<span class="font-light">Need electrical installation services for my house.</span>
+	        	<br>
+	        	<h4 class="light-gray"><b>Images</b></h4>
+	        	<img src="assets/img_01.png" class="img-upload">
+	        	<img src="assets/img_01.png" class="img-upload">
+	        	<img src="assets/img_01.png" class="img-upload">
+	        </div>
+
+	        <table class="table table-home table-job-detail ltr">
+	        <tr>
+	        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> Installation Charges:</b></td> 
+	        	<td class="no-border">Yes</td>
+	        </tr>
+
+	        <tr class="price-box">
+	        	<td><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b>  Date:</b></td> 
+	        	<td>04-05-2017</td>
+			</tr>
+			<tr>
+	        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b>  Time</b></td> 
+	        	<td class="no-border">4:30 pm</td>
+	        </tr>
+	        </table>
+
+	        <table class="table table-home table-job-detail ltr">
+	        <tr>
+	        	<td class="no-border"><img src="assets/fwd_arrow@2x-2.png" class="small-arrow">&nbsp; &nbsp;<b> Quote Limits:</b></td> 
+	        	<td class="no-border" style="text-align: center;">SAR 5 <br>Min</td>
+	        	<td class="no-border" style="text-align: center;">SAR 5 <br>Min</td>
+	        </tr>	        	       
+	       
+	        </table>
+	        	
+	    </div>    	    
+	</div>
+
+	  
+
+</div>
+<div class="col-xs-12" style="text-align:center">
+	<button style="text-align:center" class=" btn-yellow lg" (click)="goToQuotation()">Quote</button>  
+</div>
+<!-- container --> 
+
+</ion-content>

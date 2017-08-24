@@ -1,0 +1,155 @@
+<ion-header class="header-home">
+
+
+   <ion-navbar  color="custom-color">
+           <button light ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title class="header-name">ASSIGNED JOBS</ion-title>
+
+
+   </ion-navbar>  
+
+</ion-header>
+
+
+
+
+<ion-content>
+  <div>
+    <ion-segment [(ngModel)]="assignedJobs" class="segment-color">
+      <ion-segment-button value="current">
+      Current 
+      </ion-segment-button>
+      <ion-segment-button value="completed">
+      Completed
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+<div class="col-xs-12">
+<div [ngSwitch]="assignedJobs">
+  <ion-list *ngSwitchCase="'current'">
+
+          <!-- Current -->
+      <div class="tab-pane fade in active home-tabs-box">
+      
+	      	<div class="row title-ltr">
+	      		<div class="col-xs-12">
+	      			<h4 class="light-gray title-heading">Mon, Apr-25-2017</h4>
+	      		</div>
+	        </div>	
+
+	        <div class="detail-box-outer">
+		        <div class="col-xs-12 detail-box">
+              <i class="fa fa-angle-right fa-3x icon-arrow-ltr center-arrow" aria-hidden="true"></i>
+			  <!-- <ion-icon class= "forward-icon" name="arrow-forward" (click)="goToBill()"></ion-icon> -->
+			  <img src="assets/fwd_arrow@2x-2.png" class="forward-icon" (click)="goToBill()">
+			        <table class="table table-home ltr">
+			        <tr>
+			        	<td class="no-border">Job Title:</td> 
+			        	<td class="no-border">Electrical</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">User Name:</td> 
+			        	<td class="no-border">Ahmed</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Job Order ID:</td> 
+			        	<td class="no-border">65218</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Date & Time:</td> 
+			        	<td class="no-border">04-05-2017, 05:30pm</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Quote ID:</td> 
+			        	<td class="no-border">002</td>
+			        </tr>
+			        <tr>
+			        	<td  class="no-border" style="font-size: 16px;"><b>Assigned By Dispatcher</b></td> 
+			        	<td  class="no-border"></td>
+			        </tr>
+			        <tr style="border-top: solid 1px #494949;">
+			        	<td style="font-size: 17px;">Quote Amount:</td> 
+			        	<td style="font-size: 17px; text-align: right;"><b>SAR 100</b></td>
+			        </tr>
+			        </table>
+			        	
+		        </div>    
+		    </div>
+	    	<div class="col-xs-12 no-p">
+	        	<button class="btn-yellow-curve half pull-left">Navigate</button>    
+	        	<button class="btn-gray-curve half pull-right">Call</button>    
+	        </div>
+
+
+      </div>
+      <!-- Current end -->
+
+
+  </ion-list>
+
+<!--Completed Segment-->
+
+  <ion-list *ngSwitchCase="'completed'">
+
+          <!-- Completed -->
+      <div id="quoted" class="tab-pane fade in active home-tabs-box">
+			
+			  <div class="row title-ltr">
+	      		<div class="col-xs-12">
+	      			<h4 class="light-gray title-heading">Mon, Apr-25-2017</h4>
+	      		</div>
+	        </div>	
+
+	        <div class="detail-box-outer">
+		        <div class="col-xs-12 detail-box">
+              <i class="fa fa-angle-right fa-3x icon-arrow-ltr center-arrow" aria-hidden="true"></i>
+			  <!-- <ion-icon class= "forward-icon" name="arrow-forward" ></ion-icon> -->
+			  <img src="assets/fwd_arrow@2x-2.png" class="forward-icon">
+			        <table class="table table-home ltr">
+			        <tr>
+			        	<td class="no-border">Job Title:</td> 
+			        	<td class="no-border">Electrical</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">User Name:</td> 
+			        	<td class="no-border">Ahmed</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Job Order ID:</td> 
+			        	<td class="no-border">65218</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border">Date & Time:</td> 
+			        	<td class="no-border">04-05-2017, 05:30pm</td>
+			        </tr>
+			        <tr>
+			        	<td class="no-border"></td> 
+			        	<td class="no-border"></td>
+			        </tr>
+
+			        <tr style="border-top: solid 1px #494949;">
+			        	<td style="font-size: 17px;">Quote Amount:</td> 
+			        	<td style="font-size: 17px; text-align: right;"><b>SAR 100</b></td>
+			        </tr>
+			        </table>
+			        	
+		        </div>    
+		    </div>
+	    	<div class="col-xs-12 no-p">
+	        	<button class="btn-yellowjobs-curve">View</button>  
+	        </div>    
+
+      </div>
+      <!-- Completed end -->
+
+  
+  </ion-list>
+
+
+</div>
+</div>
+
+</ion-content>

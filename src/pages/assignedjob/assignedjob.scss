@@ -1,0 +1,77 @@
+page-assignedjob {
+
+}
+
+
+.detail-box {
+    background: #ececec;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 0 0 0 !important;
+    margin: 0px 0 -2px 0;
+}
+
+.title-ltr {
+    text-align: left;
+    background: #d5d5d5;
+}
+
+.btn-yellow-curve.half {
+    background: url(../assets/btn_yellow_curve_half.png) no-repeat !important;
+    background-size: 100% !important;
+    width: 50%;
+    font-size: 14px !important;
+    padding-bottom: 10px;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btn-gray-curve.half {
+    background: url(../assets/btn_gray_curve_half.png) no-repeat !important;
+    background-size: 100% !important;
+    line-height: .4 !important;
+    color: #ffffff !important;
+    height: 40px !important;
+    width: 50%;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding-bottom: 9px;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+// .button-ios {
+//     border-radius: 4px;
+//     //height: 2.8em;
+//     //font-size: 1.6rem;
+//     //color: #fff;
+//     //background-color: #488aff;
+//     margin: 0rem 0.2rem;
+//     padding: 0px 10.8em;
+// }
+
+// .button-md {
+//     border-radius: 4px;
+//     //height: 2.8em;
+//     //font-size: 1.6rem;
+//     //color: #fff;
+//     //background-color: #488aff;
+//     margin: 0rem 0.2rem;
+//     padding: 0px 10.8em;
+// }
+
+.btn-yellowjobs-curve {
+    background: url(../assets/btn_yellow_curve.png) no-repeat !important;
+    background-size: 100% !important;
+    line-height: .4 !important;
+    color: #d8262a !important;
+    height: 38px !important;
+    width: 101%;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-left: -15px;
+}

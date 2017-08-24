@@ -14,3 +14,30 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.activeHighlight{
+    color: #F5C537;
+}
+
+/*Custom is class added to the ion-content */
+.custom{
+    background-color: #494949 !important;
+}
+
+.custom .item{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: none;
+}
+
+.list-ios .item-block .item-inner {
+    border-bottom: none;
+}
+
+.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+    border-bottom: none;
+}
+
+
+

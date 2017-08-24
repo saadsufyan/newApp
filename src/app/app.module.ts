@@ -8,12 +8,37 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LoginPage } from '../pages/login/login';
+import { LanguagePage } from '../pages/language/language';
+import { AuthServiceProvider } from '../providers/auth-service/auth-service';
+import { JoborderPage } from '../pages/joborder/joborder';
+import { JoborderdetailsPage } from '../pages/joborderdetails/joborderdetails';
+import { QuotationPage } from '../pages/quotation/quotation';
+import { QuotationviewPage } from '../pages/quotationview/quotationview';
+import { AssignedjobPage } from '../pages/assignedjob/assignedjob';
+import { ClaimjobPage } from '../pages/claimjob/claimjob';
+import { ClaimdetailsPage } from '../pages/claimdetails/claimdetails';
+import { BillPage } from '../pages/bill/bill';
+import { ReQuotePage } from '../pages/re-quote/re-quote';
+import { JobCompletionPage } from '../pages/job-completion/job-completion';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    LanguagePage,
+    LoginPage,
+    ListPage,
+    JoborderPage,
+    JoborderdetailsPage,
+    QuotationPage,
+    QuotationviewPage,
+    AssignedjobPage,
+    ClaimjobPage,
+    ClaimdetailsPage,
+    BillPage,
+    ReQuotePage,
+    JobCompletionPage
   ],
   imports: [
     BrowserModule,
@@ -23,12 +48,25 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    LanguagePage,
+    LoginPage,
+    ListPage,
+    JoborderPage,
+    JoborderdetailsPage,
+    QuotationPage,
+    QuotationviewPage,
+    AssignedjobPage,
+    ClaimjobPage,
+    ClaimdetailsPage,
+    BillPage,
+    ReQuotePage,
+    JobCompletionPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AuthServiceProvider
   ]
 })
 export class AppModule {}

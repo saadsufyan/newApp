@@ -1,3 +1,145 @@
 page-home {
 
 }
+.header-home{
+    background-color: #C02124;
+}
+
+.header-name{
+    text-align:center;
+    padding-right:30px;
+    color: white;
+}
+
+
+.segment-color{
+  background-color: #494949;  
+}
+
+.segment-button{
+    color: white;
+    
+}
+
+.segment-ios .segment-button{
+    border-width: 1px !important;
+    border-style: none;
+}
+
+.segment-md .segment-button{
+    border-width: 8px !important;
+        
+}
+
+.segment-ios .segment-button:last-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+    border-left-width: 0;
+}
+
+.segment-ios .segment-button:first-of-type {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0px;
+    margin-right: 0;
+}
+
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.title-ltr {
+    text-align: left;
+    background: #d5d5d5;
+}
+
+
+.light-gray {
+    color: #494949 !important;
+}
+
+
+.title-heading {
+    font-weight: 600 !important;
+
+}
+
+.detail-box-outer {
+    margin: 10px 0 10px 0;
+}
+
+.detail-box {
+    background: #ececec;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 0 0 0 !important;
+    margin: 0px 0 -2px 0;
+}
+
+.icon-arrow-ltr {
+    position: absolute;
+    right: 8;
+    top: 40px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+
+
+.ltr {
+    direction: ltr;
+}
+
+.btn {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.btn-yellow-curve {
+    background: url(../assets/btn_yellow_curve.png) no-repeat !important;
+    background-size: 100% !important;
+    line-height: .4 !important;
+    color: #d8262a !important;
+    height: 38px !important;
+    width: 101%;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-left: -1px;
+}
+
+.price-box {
+    border-top: groove 2px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.forward-icon{
+     
+    position: absolute;
+    width: 15px;
+    right: 10px;
+    padding: 75px 0px 0px 0px;
+
+}
+
+
+
