@@ -17,15 +17,17 @@ page-assignedjob {
 }
 
 .btn-yellow-curve.half {
+
     background: url(../assets/btn_yellow_curve_half.png) no-repeat !important;
     background-size: 100% !important;
-    width: 50%;
+    width: 55%;
     font-size: 14px !important;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     font-weight: 600 !important;
-    margin: 0 !important;
+    margin: -14px !important;
     border: none !important;
     border-radius: 0 !important;
+
 }
 
 .btn-gray-curve.half {
@@ -34,11 +36,11 @@ page-assignedjob {
     line-height: .4 !important;
     color: #ffffff !important;
     height: 40px !important;
-    width: 50%;
+    width: 55%;
     font-size: 14px !important;
     font-weight: 600 !important;
     padding-bottom: 9px;
-    margin: 0 !important;
+    margin: -14px !important;
     border: none !important;
     border-radius: 0 !important;
 }

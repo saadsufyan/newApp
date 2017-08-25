@@ -21,16 +21,16 @@ export class MyApp {
   rootPage: any = LanguagePage;
   ActivePage: any
 
-  pages: Array<{title: string, component: any, class: string}>;
+  pages: Array<{title: string, component: any, class: string, img:string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Job Order', component: HomePage, class: 'class1' },
-      { title: 'Assigned Jobs', component: AssignedjobPage, class: 'class1' },
-      { title: 'Claim Jobs', component: ClaimjobPage, class: 'class1' }
+      { title: 'Job Order', component: HomePage, class: 'class1' , img: 'assets/job_icon@2x-2.png' },
+      { title: 'Assigned Jobs', component: AssignedjobPage, class: 'class2'  , img: 'assets/user@2x-2.png'},
+      { title: 'Claim Jobs', component: ClaimjobPage, class: 'class3'  , img: 'assets/claim@2x-2.png'}
     ];
 
     this.ActivePage = this.pages[0];

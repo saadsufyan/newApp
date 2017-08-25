@@ -32,12 +32,62 @@
 }
 
 .list-ios .item-block .item-inner {
-    border-bottom: none;
+    border-bottom: 0px;
 }
 
 .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
-    border-bottom: none;
+    border-bottom: 0px;
+}
+
+.menu_item_title{
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 
 
+.list-md .item-block .item-inner {
+    border-bottom: 0px;
+}
+
+.logut-menu {
+    color: white;
+    padding: 200px 0px 0px 10px;
+}
+
+.class1{
+    
+}
+
+
+.menu-img-size{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0px 0px 10px 10px !important //android
+    //padding: 10px 5px 0px 5px !important;   // ios
+}
+
+.item-md ion-thumbnail {
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.text-input-ios {
+    margin: 0px;
+}
+.logout{
+    padding: 5px 0px 0px 60px;
+    color: white;
+}
+
+
+.item-ios ion-thumbnail[item-start] {
+        margin: 8px 0px 10px 0px;
+}
+
+
+button.item-ios:not([detail-none]) .item-inner, a.item-ios:not([detail-none]) .item-inner {
+    background-image: none;
+
+}
