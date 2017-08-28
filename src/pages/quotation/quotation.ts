@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController, AlertController } from 'ionic-angular';
 import { JoborderdetailsPage } from '../joborderdetails/joborderdetails';
 
 /**
@@ -16,7 +16,7 @@ import { JoborderdetailsPage } from '../joborderdetails/joborderdetails';
 })
 export class QuotationPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -30,4 +30,35 @@ export class QuotationPage {
     this.navCtrl.push(JoborderdetailsPage);
   
   }
+
+presentPrompt() {
+  let alert = this.alertCtrl.create({
+    title: 'ADD QUOTE DETAIL',
+    cssClass: 'promptcss',
+    inputs: [
+      {
+        name: 'SERVICE:',
+        placeholder: 'SERVICE'
+      },
+      {
+        name: 'DESCRIPTION:',
+        placeholder: 'DESCRIPTION'
+      },
+      {
+        name: 'PRICE:',
+        placeholder: 'PRICE'
+      }
+    ],
+    buttons: [
+      {
+        text: 'ADD',
+        role: 'cancel',
+        handler: data => {
+          console.log('Add clicked');
+        }
+      }
+    ]
+  });
+  alert.present();
+}
 }

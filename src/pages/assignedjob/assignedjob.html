@@ -107,7 +107,7 @@
 		        <div class="col-xs-12 detail-box">
               <i class="fa fa-angle-right fa-3x icon-arrow-ltr center-arrow" aria-hidden="true"></i>
 			  <!-- <ion-icon class= "forward-icon" name="arrow-forward" ></ion-icon> -->
-			  <img src="assets/fwd_arrow@2x-2.png" class="forward-icon">
+			  <img src="assets/fwd_arrow@2x-2.png" class="forward-icon" (click)="goToViewJob()">
 			        <table class="table table-home ltr">
 			        <tr>
 			        	<td class="no-border">Job Title:</td> 
@@ -139,7 +139,7 @@
 		        </div>    
 		    </div>
 	    	<div class="col-xs-12 no-p">
-	        	<button class="btn-Claimyellow-curve">View</button>  
+	        	<button class="btn-Claimyellow-curve" (click)="goToViewJob()">View</button>  
 	        </div>    
 
       </div>

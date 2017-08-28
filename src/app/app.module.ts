@@ -21,6 +21,8 @@ import { ClaimdetailsPage } from '../pages/claimdetails/claimdetails';
 import { BillPage } from '../pages/bill/bill';
 import { ReQuotePage } from '../pages/re-quote/re-quote';
 import { JobCompletionPage } from '../pages/job-completion/job-completion';
+import { ViewjobPage } from '../pages/viewjob/viewjob';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { JobCompletionPage } from '../pages/job-completion/job-completion';
     ClaimdetailsPage,
     BillPage,
     ReQuotePage,
-    JobCompletionPage
+    JobCompletionPage,
+    ViewjobPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,8 @@ import { JobCompletionPage } from '../pages/job-completion/job-completion';
     ClaimdetailsPage,
     BillPage,
     ReQuotePage,
-    JobCompletionPage
+    JobCompletionPage,
+    ViewjobPage
   ],
   providers: [
     StatusBar,

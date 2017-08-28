@@ -89,6 +89,8 @@ $colors: (
 @import "roboto";
 @import "noto-sans";
 
+//@import "TitilliumWeb-Regular";
+
 $segment-button-md-border-width: 8px;
 $segment-button-ios-border-width: 8px;
 $text-input-placeholder-color: white;
@@ -104,5 +106,8 @@ $tab-button-md-inactive-color: white;
 $menu-ios-background: #C02124;
 $menu-md-background: #C02124;
 
+$font-family-md-base: 'TitilliumWeb-Regular';
+$font-family-ios-base: 'TitilliumWeb-Regular';
+$font-family-wp-base: 'TitilliumWeb-Regular';
 
 

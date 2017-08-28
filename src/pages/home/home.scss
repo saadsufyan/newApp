@@ -7,7 +7,8 @@ page-home {
 
 .header-name{
     text-align:center;
-    padding-right:30px;
+    //padding-right:30px;
+    //padding-right: 65px;
     color: white;
 }
 
@@ -16,20 +17,26 @@ page-home {
   background-color: #494949;  
 }
 
-.segment-button{
-    color: white;
-    
-}
+
 
 .segment-ios .segment-button{
     border-width: 1px !important;
     border-style: none;
+    color: white;
 }
 
 .segment-md .segment-button{
     border-width: 8px !important;
-        
+    height: 4.9rem;   
+    color: white; 
 }
+
+.segment-md .segment-button.segment-activated {
+    border-color: #F5C537;
+    color: #F5C537;
+    opacity: 1;
+}
+
 
 .segment-ios .segment-button:last-of-type {
     border-top-left-radius: 0;
@@ -137,9 +144,20 @@ page-home {
     position: absolute;
     width: 15px;
     right: 10px;
-    padding: 75px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 
 }
 
 
+.table{
+    margin-top: 0px;
+}
 
+.ion-app.md{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.toolbar-title-md{
+    
+    padding: 0px 40px 0 0;
+}

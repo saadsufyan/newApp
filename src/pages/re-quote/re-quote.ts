@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController, AlertController } from 'ionic-angular';
 import { BillPage } from '../bill/bill';
 
 /**
@@ -16,7 +16,7 @@ import { BillPage } from '../bill/bill';
 })
 export class ReQuotePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController,  public alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -30,5 +30,35 @@ export class ReQuotePage {
     this.navCtrl.push(BillPage);
   }
 
+presentPrompt() {
+  let alert = this.alertCtrl.create({
+    title: 'ADD QUOTE DETAIL',
+    cssClass: 'promptcss',
+    inputs: [
+      {
+        name: 'SERVICE:',
+        placeholder: 'SERVICE'
+      },
+      {
+        name: 'DESCRIPTION:',
+        placeholder: 'DESCRIPTION'
+      },
+      {
+        name: 'PRICE:',
+        placeholder: 'PRICE'
+      }
+    ],
+    buttons: [
+      {
+        text: 'ADD',
+        role: 'cancel',
+        handler: data => {
+          console.log('Add clicked');
+        }
+      }
+    ]
+  });
+  alert.present();
+}
 
 }

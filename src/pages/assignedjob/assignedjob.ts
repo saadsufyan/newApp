@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { BillPage } from '../bill/bill';
+import { ReQuotePage } from '../re-quote/re-quote';
+import { QuotationviewPage } from '../quotationview/quotationview';
+import { ViewjobPage } from '../viewjob/viewjob';
+
 
 /**
  * Generated class for the AssignedjobPage page.
@@ -31,6 +35,12 @@ export class AssignedjobPage {
   goToBill(){
     this.navCtrl.push(BillPage);
 
+  }
+  goToReQuote(){
+    this.navCtrl.push(QuotationviewPage);
+  }
+  goToViewJob(){
+    this.navCtrl.push(ViewjobPage);
   }
 
 }

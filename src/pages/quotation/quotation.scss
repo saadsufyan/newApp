@@ -68,4 +68,94 @@ page-quotation {
 
 .no-border{
     border-top: 0px !important;
+    padding: 8px 0px 0px 5px !important;
+}
+
+.promptcss{
+    //color: white;
+    //background-color: #C02124;
+}
+
+.alert-md .alert-head {
+    text-align: Center;
+    //text-align: start;
+    //padding: 24px 24px 20px;
+    padding: 14px 35px 10px;
+    background-color: #C02124;
+    color: white;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.alert-ios .alert-head {
+    text-align: Center;
+    //text-align: start;
+    padding: 14px 35px 10px;
+    background-color: #C02124;
+    color: white;
+    
+}
+
+.alert-md .alert-button {
+    background: url(../assets/btn_gray_2.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 30px !important;
+    color: #ffffff !important;
+    height: 38px !important;
+    width: 150px;
+}
+
+.alert-md .alert-button .button-inner {
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: center;
+}
+
+.alert-md .alert-button-group{
+        justify-content: center;
+}
+
+.alert-md .alert-wrapper{
+    border-radius: 10px;
+    max-width: 290px;
+}
+
+.alert-md .alert-input {
+    margin: 15px 0;
+    border-bottom: 1px solid #dedede;
+    color: #000;
+}
+
+.alert-ios .alert-input {
+    margin: 15px 0;
+    border-bottom: 1px solid #dedede;
+    color: #000;
+}
+
+.alert-ios .alert-button{
+    //margin: 0;
+    //border-radius: 0;
+    //overflow: hidden;
+    //-webkit-box-flex: 1;
+    //-webkit-flex: 1 1 auto;
+    //-ms-flex: 1 1 auto;
+    //flex: 1 1 auto;
+    //min-width: 50%;
+    //height: 44px;
+    //border-top: 0.55px solid #dbdbdf;
+    //border-right: 0.55px solid #dbdbdf;
+    font-size: 17px;
+    //color: #488aff;
+    //background-color: transparent;
+
+    background: url(../assets/btn_gray_2.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 30px !important;
+    color: #ffffff !important;
+    height: 38px !important;
+    width: 150px;
+
+    
+
 }
